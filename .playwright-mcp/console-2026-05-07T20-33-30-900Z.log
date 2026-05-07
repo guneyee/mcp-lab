@@ -1,4 +1,0 @@
-[     814ms] [INFO] LegacyDataMixin will be applied to all legacy elements.
-Set `_legacyUndefinedCheck: true` on element class to enable. @ https://music.youtube.com/s/cc9ad9fa/music_polymer_inlined_html.js:5007
-[    2810ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://music.youtube.com/:0
-[  128692ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+e07741b6144172406c3214ab7aea17bd8c953736+SAPISID3PHASH+e07741b6144172406c3214ab7aea17bd8c953736&authuser=0&format=json:0
