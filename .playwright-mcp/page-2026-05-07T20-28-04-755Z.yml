@@ -1,0 +1,270 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "The App Switcher is loading" [ref=e9] [cursor=pointer]:
+          - status "The App Switcher is loading" [ref=e13]
+        - link "Go to your Jira homepage" [ref=e15] [cursor=pointer]:
+          - /url: /jira
+          - img [ref=e19]
+      - button "Collapse sidebar" [ref=e23] [cursor=pointer]:
+        - generic [ref=e25]: Collapse sidebar
+    - generic [ref=e26]:
+      - search [ref=e31]:
+        - textbox "Search" [ref=e34]
+      - button "Create" [ref=e37] [cursor=pointer]:
+        - generic [ref=e40]: Create
+    - navigation "Actions" [ref=e41]:
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - button "Notifications" [ref=e46] [cursor=pointer]:
+            - generic [ref=e49]: Notifications
+        - listitem [ref=e52]:
+          - button "Help" [ref=e53] [cursor=pointer]:
+            - generic [ref=e56]: Help
+        - listitem [ref=e58]:
+          - button "Settings" [ref=e59] [cursor=pointer]:
+            - generic [ref=e62]: Settings
+        - listitem [ref=e63]:
+          - button "thefearfulplayer@gmail.com" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]:
+              - img [ref=e68]
+              - generic [ref=e69]: thefearfulplayer@gmail.com
+  - main [ref=e70]:
+    - generic [ref=e81]:
+      - generic [ref=e83]:
+        - navigation "Work item breadcrumbs" [ref=e88]:
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Spaces" [ref=e92] [cursor=pointer]:
+                  - /url: /jira/projects
+                  - generic [ref=e93]: Spaces
+              - text: /
+            - listitem [ref=e94]:
+              - listitem [ref=e95]:
+                - link "MCP Workshop MCP Workshop" [ref=e96] [cursor=pointer]:
+                  - /url: https://guneyk.atlassian.net/browse/MCPW
+                  - img "MCP Workshop" [ref=e100]
+                  - generic [ref=e101]: MCP Workshop
+              - text: /
+            - listitem [ref=e102]:
+              - button "Epic - Add parent" [ref=e104] [cursor=pointer]:
+                - generic [ref=e107]: Add parent
+              - text: /
+            - listitem [ref=e108]:
+              - button "Story - Change work type" [ref=e110] [cursor=pointer]:
+                - img "Story" [ref=e112]
+              - listitem [ref=e113]:
+                - link "MCPW-1" [ref=e114] [cursor=pointer]:
+                  - /url: /browse/MCPW-1
+                  - generic [ref=e115]: MCPW-1
+              - generic [ref=e117]:
+                - textbox [ref=e118]
+                - button "Copy link" [ref=e119] [cursor=pointer]:
+                  - img "Copy link" [ref=e121]
+        - generic [ref=e128]:
+          - button "User Login Form- Summary, edit"
+          - heading "User Login Form" [level=1] [ref=e130]
+        - generic [ref=e133]:
+          - button "Add or create work related to this Story" [ref=e135] [cursor=pointer]:
+            - generic [ref=e138]: Add or create work related to this Story
+          - button "Add apps" [ref=e139] [cursor=pointer]:
+            - generic [ref=e142]: Add apps
+        - generic [ref=e147]:
+          - heading "Collapse Description Description" [level=2] [ref=e148]:
+            - generic [ref=e152] [cursor=pointer]:
+              - button "Collapse Description" [ref=e153]:
+                - generic [ref=e156]: Collapse Description
+              - generic [ref=e157]: Description
+          - region "Description section" [ref=e158]:
+            - generic [ref=e164]:
+              - button "Add Description, edit"
+              - generic [ref=e168]:
+                - paragraph [ref=e169]: "STORY-001: User Login Form"
+                - paragraph [ref=e170]: Description As a user, I want to log in with my email and password so that I can access my account.
+                - paragraph [ref=e171]: Acceptance Criteria
+                - paragraph [ref=e172]: "AC1: Display Login Form"
+                - list [ref=e173]:
+                  - listitem [ref=e174]:
+                    - paragraph [ref=e175]: Given I am on the login page
+                  - listitem [ref=e176]:
+                    - paragraph [ref=e177]: When the page loads
+                  - listitem [ref=e178]:
+                    - paragraph [ref=e179]: Then I see email and password fields with a "Login" button
+                - paragraph [ref=e180]: "AC2: Validate Credentials"
+                - list [ref=e181]:
+                  - listitem [ref=e182]:
+                    - paragraph [ref=e183]: Given I enter valid credentials
+                  - listitem [ref=e184]:
+                    - paragraph [ref=e185]: When I click "Login"
+                  - listitem [ref=e186]:
+                    - paragraph [ref=e187]: Then I am redirected to the dashboard
+                - paragraph [ref=e188]: "AC3: Show Error on Invalid Credentials"
+                - list [ref=e189]:
+                  - listitem [ref=e190]:
+                    - paragraph [ref=e191]: Given I enter invalid credentials
+                  - listitem [ref=e192]:
+                    - paragraph [ref=e193]: When I click "Login"
+                  - listitem [ref=e194]:
+                    - paragraph [ref=e195]: Then I see "Invalid email or password" error message
+                - paragraph [ref=e196]: "AC4: Remember Me Functionality"
+                - list [ref=e197]:
+                  - listitem [ref=e198]:
+                    - paragraph [ref=e199]: Given I check "Remember me" checkbox
+                  - listitem [ref=e200]:
+                    - paragraph [ref=e201]: When I log in successfully
+                  - listitem [ref=e202]:
+                    - paragraph [ref=e203]: Then my session persists for 30 days
+                - paragraph [ref=e204]: Technical Notes
+                - list [ref=e205]:
+                  - listitem [ref=e206]:
+                    - paragraph [ref=e207]: Use bcrypt for password hashing
+                  - listitem [ref=e208]:
+                    - paragraph [ref=e209]: Implement rate limiting (5 attempts per minute)
+                  - listitem [ref=e210]:
+                    - paragraph [ref=e211]: Store session in HTTP-only cookies
+        - generic [ref=e212]:
+          - generic [ref=e214]:
+            - heading "Subtasks" [level=2] [ref=e216]
+            - button "Add subtask" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: Add subtask
+          - generic [ref=e221]:
+            - heading "Linked work items" [level=2] [ref=e223]
+            - button "Add linked work item" [ref=e225] [cursor=pointer]:
+              - generic [ref=e226]: Add linked work item
+        - generic [ref=e229]:
+          - heading "Activity" [level=2] [ref=e231]
+          - generic [ref=e232]:
+            - group "Show" [ref=e235]:
+              - radio "All" [ref=e236] [cursor=pointer]:
+                - generic [ref=e237]: All
+              - radio "Comments" [checked] [ref=e238]:
+                - generic [ref=e239]: Comments
+              - radio "History" [ref=e240] [cursor=pointer]:
+                - generic [ref=e241]: History
+              - radio "Work log" [ref=e242] [cursor=pointer]:
+                - generic [ref=e243]: Work log
+              - radio "Approvals" [ref=e244] [cursor=pointer]:
+                - generic [ref=e245]: Approvals
+            - button "Newest first Newest first" [ref=e248] [cursor=pointer]:
+              - generic [ref=e249]:
+                - img "Newest first" [ref=e250]
+                - generic [ref=e251]: Newest first
+          - generic [ref=e255]:
+            - img "Profile image of Güney Karaoz (guney)" [ref=e257]:
+              - img [ref=e259]
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - img [ref=e262]
+                - generic [ref=e266]:
+                  - button "Add a comment…" [ref=e267]
+                  - group "Quick comments" [ref=e269]:
+                    - group [ref=e270]:
+                      - button "Who is working on this...?" [ref=e271] [cursor=pointer]:
+                        - generic [ref=e272]: Who is working on this...?
+                      - button "Status update..." [ref=e273] [cursor=pointer]:
+                        - generic [ref=e274]: Status update...
+                      - button "Thanks..." [ref=e275] [cursor=pointer]:
+                        - generic [ref=e276]: Thanks...
+              - generic [ref=e277]:
+                - strong [ref=e278]: "Pro tip:"
+                - text: press
+                - generic [ref=e280]: M
+                - text: to comment
+      - generic [ref=e283]:
+        - slider "Resize work item view side panel" [ref=e284]: "0.65"
+        - text: Resize work item view side panel
+      - generic [ref=e290]:
+        - group "Action items" [ref=e292]:
+          - generic [ref=e293]:
+            - 'button "Watch options: You are watching this issue, 1 person watching" [ref=e297] [cursor=pointer]':
+              - generic [ref=e303]:
+                - generic: "1"
+            - button "Share" [ref=e305] [cursor=pointer]:
+              - generic [ref=e308]: Share
+            - button "Actions" [ref=e310] [cursor=pointer]:
+              - generic [ref=e313]: Actions
+        - generic [ref=e314]:
+          - generic [ref=e317]:
+            - button "Backlog - Change status" [ref=e324] [cursor=pointer]:
+              - generic [ref=e325]: Backlog
+            - button "Automation" [ref=e330] [cursor=pointer]:
+              - generic [ref=e333]: Automation
+            - button "Improve Story" [ref=e336] [cursor=pointer]:
+              - generic [ref=e347]: Improve Story
+          - generic [ref=e349]:
+            - generic [ref=e353]:
+              - button "Details" [expanded] [ref=e357] [cursor=pointer]:
+                - heading "Details" [level=2] [ref=e362]
+              - generic [ref=e365]:
+                - generic [ref=e369]:
+                  - generic [ref=e371]:
+                    - generic [ref=e372]: Assignee
+                    - button "Assignee Pin to top. Only you can see pinned fields." [ref=e375] [cursor=pointer]
+                  - generic [ref=e378]:
+                    - button "Unassigned- edit Assignee" [ref=e379]
+                    - generic [ref=e381]:
+                      - img "Unassigned" [ref=e382]
+                      - generic [ref=e386]: Unassigned
+                    - button "Assign to me" [ref=e388] [cursor=pointer]
+                - generic [ref=e391]:
+                  - generic [ref=e393]:
+                    - generic [ref=e394]: Reporter
+                    - button "Reporter Pin to top. Only you can see pinned fields." [ref=e397] [cursor=pointer]
+                  - generic [ref=e400]:
+                    - button [disabled] [ref=e401]
+                    - button "More information about Güney Karaoz (guney)" [ref=e403]:
+                      - generic [ref=e406]:
+                        - img "Güney Karaoz (guney)" [ref=e407]:
+                          - img [ref=e409]
+                        - generic [ref=e410]: Güney Karaoz (guney)
+                - generic [ref=e413]:
+                  - generic [ref=e415]:
+                    - generic [ref=e416]: Labels
+                    - button "Labels Pin to top. Only you can see pinned fields." [ref=e419] [cursor=pointer]
+                  - generic [ref=e422]:
+                    - button "Edit Labels" [ref=e423]
+                    - generic [ref=e424]: None
+                - generic [ref=e428]:
+                  - generic [ref=e430]:
+                    - generic [ref=e431]: Due date
+                    - button "Due date Pin to top. Only you can see pinned fields." [ref=e434] [cursor=pointer]
+                  - generic [ref=e437]:
+                    - button "Edit Due date" [ref=e438]
+                    - generic [ref=e439]: None
+                - generic [ref=e443]:
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: Start date
+                    - button "Start date Pin to top. Only you can see pinned fields." [ref=e453] [cursor=pointer]
+                  - generic [ref=e456]:
+                    - button "Edit Start date" [ref=e457]
+                    - generic [ref=e458]: None
+                - generic [ref=e461]:
+                  - generic [ref=e463]:
+                    - generic [ref=e464]: Priority
+                    - button "Priority Pin to top. Only you can see pinned fields." [ref=e467] [cursor=pointer]
+                  - generic [ref=e470]:
+                    - button "Edit Priority" [ref=e471]
+                    - generic [ref=e473]: Medium
+            - button "Development" [ref=e479] [cursor=pointer]:
+              - heading "Development" [level=2] [ref=e484]
+            - button "More fields" [ref=e490] [cursor=pointer]:
+              - generic [ref=e494]:
+                - heading "More fields" [level=2] [ref=e495]
+                - generic [ref=e496]: Story Points, Original estimate, Time tracking, Components, Team, Fix versions, Parent
+          - button "Automation" [ref=e504] [cursor=pointer]:
+            - generic [ref=e508]:
+              - heading "Automation" [level=2] [ref=e509]
+              - generic [ref=e515]: Rule executions
+          - generic [ref=e516]:
+            - generic [ref=e517]:
+              - generic [ref=e519]:
+                - text: Created
+                - button "11 hours ago" [ref=e520] [cursor=pointer]
+              - generic [ref=e522]:
+                - text: Updated
+                - button "7 minutes ago" [ref=e523] [cursor=pointer]
+            - link "Configure" [ref=e525] [cursor=pointer]:
+              - /url: /plugins/servlet/project-config/MCPW/issuelayout?screenId=10042#backLinkUrl=%2Fbrowse%2FMCPW-1&backLinkTitle=Back%20to%20MCPW-1
+              - generic [ref=e528]: Configure

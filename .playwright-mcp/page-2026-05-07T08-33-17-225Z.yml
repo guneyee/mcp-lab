@@ -1,0 +1,42 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - progressbar [ref=e6]
+      - main [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e18]:
+            - img [ref=e20]
+            - generic [ref=e25]: Google ile oturum açın
+          - generic [ref=e26]:
+            - heading "Oturum açın" [level=1] [ref=e27]
+            - generic [ref=e29]:
+              - button "Atlassian" [ref=e30] [cursor=pointer]
+              - text: uygulamasına devam edin
+        - generic [ref=e38]:
+          - generic [ref=e43]:
+            - textbox "E-posta veya telefon" [active] [ref=e44]: thefearful
+            - generic: E-posta veya telefon
+          - button "E-posta adresinizi mi unuttunuz?" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - button "Sonraki" [ref=e54]:
+            - generic [ref=e57]: Sonraki
+          - button "Hesap oluşturun" [ref=e62]:
+            - generic [ref=e65]: Hesap oluşturun
+    - contentinfo [ref=e69]:
+      - combobox "Dili değiştirme Türkçe" [ref=e73] [cursor=pointer]:
+        - generic:
+          - generic: Türkçe
+        - generic:
+          - img
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - link "Yardım" [ref=e77] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=tr&p=account_iph
+        - listitem [ref=e78]:
+          - link "Gizlilik" [ref=e79] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=TR&hl=tr&privacy=true
+        - listitem [ref=e80]:
+          - link "Şartlar" [ref=e81] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=TR&hl=tr
+  - iframe [ref=e82]:
+    
